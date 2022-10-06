@@ -1,0 +1,23 @@
+
+.dialogs{
+    grid-area: content;
+    display: grid;
+    grid-template-columns:2fr 8fr;
+}
+.chats{
+    padding: 5px;
+    background: #b1e0e0;
+}
+.messages{
+    padding: 5px;
+    background: #8cd9d9;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active a{
+    color: #12aeae;
+    font-weight: 600;
+    font-size: 1.1em;
+}
